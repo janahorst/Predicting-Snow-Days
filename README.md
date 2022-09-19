@@ -16,7 +16,7 @@ The data comes from Google's public data set. The data includes weather informat
 Since the analysis is about predicting whether it will snow (snow: yes/no) I decided to use a classification model and used XGBoost in the analysis. This allowed me to predict whether it will snow on the specific date at the different stations or not.
 The XGBoost model correctly predicted the snow at the various stations without making a prediction error. Since a 100% correct model is very unlikely, there could be an error in the preparation of the data or in the analysis. 
 
-#Further steps:
+# Further steps:
 I will take a closer look at the accuracy problem when I have more time to develop the model.
 - Preparations: I would  research further how to properly incorporate date variables into the XGBoost model and check the warning messages I got in the notebook.
 - Model: If I had more time, I would also look closer at the feature importance and tune the model if necessary. 
